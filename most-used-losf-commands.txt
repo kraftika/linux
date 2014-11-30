@@ -1,0 +1,32 @@
+# List all files opened by user
+losf -u username
+
+# List running processe except those of root user
+lsof -i -u^root
+
+# List all the processes running on port 22
+lsof -i TCP:22
+
+# List open network files 
+lsof -i 4
+
+# List running processes of open files (open ports between 1-1024) 
+lsof -i TCP:1-1024 - list running process of open files
+
+# List all network connections
+lsof -i - all network connections
+
+# List open files for the process with pid = 1 
+lsof -p 1
+
+# Kill processes for a specific user
+kill -9 “losf -t -u username
+
+# List processes which opened a specific files
+lsof /var/log/syslog
+
+# List open files from a specific folder
+lsof /var/log/ - list processes which opened a specific folder
+
+# List files opened by process having a name started with 
+lsof -c ssh -c init - list files opened by process name started with 

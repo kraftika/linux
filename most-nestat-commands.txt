@@ -1,0 +1,18 @@
+# List open ports (listen and non-listed)
+netstat -a  - list open ports listen and non-listed
+
+# List open tcp/udp ports
+netstat -at; 
+netstat -au;
+
+# List sockets in a listed state
+netstat -l
+
+# Show statistics for all ports
+netstat -s
+
+# Show statistics for tcp ports
+netstat -st
+
+# Show statistics for udp ports
+netstat -su

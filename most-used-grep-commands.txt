@@ -1,0 +1,22 @@
+# Counts Error word in log file
+grep -c "Error” logfile.txt
+
+# Search and display the context around founded search
+grep —context=6 successful log file.txt
+
+# List only file names
+grep -l ‘main’ *.java 
+
+# Insensitive words
+grep -i ‘main’ *.java
+
+# List findings using colors
+grep “Error” *.java —color
+
+# Look into multiples folders
+grep -ril alvin /home/user1 /home/user2
+
+# Search recursively in directories
+grep -rl alvin . 
+
+3 versions of grep command in UNIX: grep, fgrep, egrep.

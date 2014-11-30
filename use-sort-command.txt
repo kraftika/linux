@@ -1,0 +1,8 @@
+# sorting on any column in the input
+ps -ef | sort -nk3
+
+# sorting in reverse order (descending)
+ps -ef | sort -r
+
+# sort and remove duplicates 
+sort -u or sort | uniq
