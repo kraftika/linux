@@ -1,0 +1,130 @@
+# http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
+
+#  Insert mode variations:
+
+a → insert after the cursor
+o → insert a new line after the current one
+O → insert a new line before the current one
+cw → replace from the cursor to the end of the word
+
+# Basic moves
+
+0 → go to the first column
+^ → go to the first non-blank character of the line
+$ → go to the end of line
+g_ → go to the last non-blank character of line
+/pattern → search for pattern
+
+# Copy/Paste
+
+P → paste before, remember p is paste after current position.
+yy → copy the current line, easier but equivalent to ddP
+
+# Undo/Redo
+
+u → undo
+<C-r> → redo
+
+
+# Load/Save/Quit/Change File (Buffer)
+
+:e <path/to/file> → open
+:w → save
+:saveas <path/to/file> → save to <path/to/file>
+:x, ZZ or :wq → save and quit (:x only save if necessary)
+:q! → quit without saving, also: :qa! to quit even if there are modified hidden buffers.
+:bn (resp. :bp) → show next (resp. previous) file (buffer)
+
+
+#NORMAL
+
+V multiline copy
+
+. duplicate last command
+
+I insert at the begin
+
+A Append to end
+
+J Join two lines
+
+> and < indent block(in visual mode)
+
+CTRL + A or X increase or decrease the number
+
+~ toggle the casing of a letter/selection(upper-case/down-case)
+
+!! execute last command
+
+<start position><command><end position> for example y`a yank from here to he marked a
+
+use markers in the way a z b e
+
+"zyy and "zp copy to z register and paste from z register
+
+set ft=? look up current file type.
+
+Move
+% go to the corresponding (),{},[]
+
+mz `z Marker and go to the last position
+
+'. Jump back to last edited line
+
+g;and g, move (forward,backward) through the changelist
+
+gi go to the last place you inserted a text
+
+Ctrl-o and Ctrl-i to go to the previous/next location you jumped to
+
+fa go to the next a in the line
+
+t, go to before the next ,
+
+F and T are backward
+
+w go to the start of the next word
+
+b/e go to the beginning/end of this word
+
+W go to the start of the following WORD(space separated only)
+
+B/E go to the beginning/end of this WORD
+
+{ } to move to the beginning/ending of the paragraph
+
+zz move current line to the middle of the screen
+
+zt move current line to the top of the screen
+
+zt move current line to the bottom of the screen
+
+Ctrl+e move screen up one line
+
+Ctrl+y move screen down one line
+
+Zone selection
+<action>a<object> and <action>i<object>
+
+Action can be any action, for example d, y, c(change), v(select in visual mode). The object can be: w a word, W a WORD, s a sentence, p a paragraph. But also, natural character such as ",',),],}
+
+vi" will select foo.
+
+va" will select “foo”
+
+# Editing
+cc change the entire current line
+
+r replace the current character
+
+R Enter Insert mode, replacing characters rather than inserting
+
+
+# Macro recording
+/bin/bash: :q: command not found
+
+q[ key ] to start recording
+
+q to stop recording
+
+@[ key ] to use the macro ```
