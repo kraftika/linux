@@ -1,0 +1,13 @@
+http://www.tecmint.com/chaining-operators-in-linux-with-practical-examples/
+
+1. Ampersand &
+2. Semi-colon ;
+3. And &&
+4. OR ||
+5. NOT !
+6. AND - OR 
+7. PIPE |
+8. Combination {}
+9. Predence ()
+10. Concatenation \
+

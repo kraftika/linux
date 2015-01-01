@@ -1,0 +1,4 @@
+http://www.tecmint.com/nested-variable-substitution-in-linux-scripting/
+
+1. Declare a readonly variable
+2. BASH Variables table

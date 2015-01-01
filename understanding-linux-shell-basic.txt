@@ -1,0 +1,5 @@
+http://www.tecmint.com/understand-linux-shell-and-basic-shell-scripting-language-tips/
+
+1. Types of shell
+2. Process of writing and executing a script
+

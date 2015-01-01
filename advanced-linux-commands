@@ -1,0 +1,34 @@
+ifconfig -a
+
+ifconfig eth0 down
+ifconfig eth0 up
+
+netstat -a
+
+netstat -at
+netstat -au
+
+nslookup mydomain.com
+
+dig mydomain.com
+
+uptime
+
+wall
+
+w
+
+rename
+
+top
+
+rsync
+
+free -h
+free -k 
+free -g
+
+# Make a hard to guess password
+mkpasswd -l 10 
+
+lsof

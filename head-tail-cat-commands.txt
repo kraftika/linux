@@ -1,0 +1,5 @@
+http://www.tecmint.com/view-contents-of-file-in-linux/
+
+1. head
+2. tail
+3. cat

@@ -1,0 +1,11 @@
+http://www.tecmint.com/12-practical-examples-of-linux-grep-command/
+
+1. Search and find files
+2. Search and filter files
+3. Find only .mp3 files
+4. Display the number of lines before or after search string
+5. Prints number of lines around the match
+6. Count number of matches
+7. Search file by given string
+8. Search a string recursively in all directories
+9. Search for entire pattern

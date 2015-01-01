@@ -1,0 +1,30 @@
+http://www.tecmint.com/nmap-command-examples/
+
+1. How to install nmap
+2. Scan a system with hostname and IP address
+3. Scan with -v
+4. Scan multiple hots
+5. Scan a whole subnet
+6. Scan multiple servers using last octet of IP address
+7. Scan list of hosts from file
+8. Scan an IP address range
+9. Scan network excluding remote hosts
+10. Scan OS information and traceroute
+11. Enable OS detection with nmap
+12. Scan a host to detect firewall
+13. Scan a host to check it is protected by Firewall
+14. Find live hosts in a network
+15. Perform a fast scan
+16. Scan ports consecutevely
+17. Scan for a specific port
+18. Scan a TCP port
+19. Scan a UDP port
+20. Scan multiple ports
+21. Scan ports by network range
+22. Find host services version numbers
+23. Scan remote hosts using TCP ACK and TCP Syn
+24. Scan remote hosts using TCP ACK
+25. Scan remote hosts using TCP Syn
+26. Perform a stealthy scan
+27. Check most commonly used ports with TCP Syn
+28. Perform a tcp null scan to fool a firewall

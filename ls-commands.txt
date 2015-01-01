@@ -1,0 +1,14 @@
+http://www.tecmint.com/ls-command-interview-questions/
+
+To remember:
+
+1. echo *
+2. echo */
+3. ls -a --- list hidden files
+4. ls -l --- list in long format
+5. ls --author -l --- list the author for each file
+6. ls --block-size=M -l --- list in desired scale format
+7. ls -cl --- list the files sorted and show tha last associated modification
+8. ls -ltc --- list the files sorted and show tha last associated modification and the time of the modification
+9. ls --color=always
+10. ls -d --- list only directories

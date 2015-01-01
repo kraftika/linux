@@ -1,0 +1,6 @@
+http://www.tecmint.com/working-with-arrays-in-linux-shell-scripting/
+
+1. Initialization and usage
+2. Various operations
+3. Command substitutions with arrays
+4. Simulating two-dimensional array

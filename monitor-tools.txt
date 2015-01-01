@@ -1,0 +1,21 @@
+http://www.tecmint.com/command-line-tools-to-monitor-linux-performance/
+
+1. Top - Process monitoring
+2. VmStat - virtual memory statistics
+3. Lsof - list open files
+4. TcpDump - Network packet analyzer
+5. Netstat network statistics
+6. Htop - linux process monitoring
+7. IoTop - monitor Disk I/O
+8. IoStat - Input/Output statistics
+9. IPTraf - Real time IP Lan Monitoring
+10. Psacct and acct - Monitor User activity
+11. Monit - linux process and services monitoring
+12. NetHogs - Monitor Per Process Network Bandwith
+13. iftop - Network Bandwith Monitor
+14. Monitorix - System and network monitoring
+15. Arpwatch - Ethernet Activity Monitor
+16. Suricata - Network Security Monitor
+17. Nagios - Network/Server monitor
+18. Nmon - Monitor linux performance
+19. Collectl - All in one performance monitor

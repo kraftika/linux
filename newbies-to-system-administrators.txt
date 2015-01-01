@@ -1,0 +1,63 @@
+http://www.tecmint.com/60-commands-of-linux-a-guide-from-newbies-to-system-administrator/
+
+PART I
+
+1. View the contents of a directory : A directory may contains visible and invisible files with different file permissions.
+2. Viewing blocks, HDD partition, External HDD
+3. Checking the integrity of Downloaded/Transferred Packages
+4. Converting and copying a file
+5. Know your machine name, OS and Kernel
+6. Viewing history
+7. Being root
+8. Make Directory
+9. Make Files
+10. Changing the file permission
+11. Own a file
+12. Install, Update and maintain Packages
+13. Uncompressing a file
+14. See current date, time and calendar
+15. Print contents of a file
+16. Copy and Move
+17. See the working directory for easy navigation
+18. Change the working directory, etc…
+
+PART II
+
+1. Finding a file in a given directory
+2. Searching a file with the given keywords
+3. Finding online documentation
+4. See the current running processes
+5. Kill a running process
+6. See the location of installed Binaries
+7. Starting, Ending, Restarting a service
+8. Making and removing of aliases
+9. View the disk and space usages
+10. Removing a file and/or directory
+11. Print/echo a custom output on standard output
+12. Changing password of on-self and other’s, if you are root.
+13. View Printing queue
+14. Compare two files
+15. Download a file, the Linux way (wget)
+16. Mount a block / partition / external HDD
+17. Compile and Run a code written in ‘C’, ‘C++’ and ‘Java’ Programming Language
+
+PART III
+
+1. Configuring Network Interface
+2. Viewing custom Network Related information
+3. Getting information about Internet Server with customisable switches and Results
+4. Digging DNS
+5. Knowing Your System uptime
+6. Sending an occasional Information to all other logged-in users
+7. Send text messages directly to a user
+8. Combination of commands
+9. Renaming a file
+10. Seeing the processes of a CPU
+11. Creating newly formatted ext4 partition
+12. Text File editors like vi, emacs and nano
+13. Copying a large file/folder with progress bar
+14. Keeping track of free and available memory
+15. Backup a mysql database
+16. Make difficult to guess – random password
+17. Merge two text files
+18. List of all the opened files
